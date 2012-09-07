@@ -1,0 +1,23 @@
+-- build.settings for project: Bir Doodle
+-- Managed with http://CoronaProjectManager.com
+-- Copyright 2012 Robert Porter. All Rights Reserved.
+-- cpmgen build.settings
+settings =
+{
+	orientation =
+	{
+		default ="landscapeRight",
+		content = "landscapeRight",
+		supported =
+		{
+			"landscapeRight","landscapeLeft"
+		},
+	},
+	iphone =
+	{
+		plist=
+		{
+			UIStatusBarHidden=true,
+		},
+	},
+}
